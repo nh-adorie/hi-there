@@ -159,24 +159,10 @@ html {
 
 #slider {
     margin-top: 46px;
-    padding-top: 50%;
-    /* padding-top 50% của chính nó --> 
-    đảm bảo kích thước chiều dọc luôn bằng 1 nửa 
-    chiều ngang */
-    background-image: url(/image/slider.jpg);
-    background-size: cover;
-    background-position: top center; 
-    position: relative;
+    width: 100%;
 
 }
 
-#slider .text-content {
-    position: absolute;
-    bottom: 47px;
-    /* Làm z để chữ chui lên ảnh */
-    color: rgb(14, 55, 14);
-    width: 100%;
-    text-align: center;
  
     
 
